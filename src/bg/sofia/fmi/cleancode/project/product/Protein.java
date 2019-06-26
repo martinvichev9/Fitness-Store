@@ -8,21 +8,17 @@ import bg.sofia.fmi.cleancode.project.utils.ProductType;
 public class Protein extends Product {
 
     private Flavour flavour;
-    private double quantity;
+    private int quantity;
     private String description;
 
-    public Protein(Brand brand, double price, Flavour flavour, double quantity) {
-        super(brand, price);
+    public Protein(Brand brand, double price,  int count, Flavour flavour, int quantity) {
+        super(brand, price, count);
         this.flavour = flavour;
         this.quantity = quantity;
         description = Description.PROTEIN;
     }
 
-    /**
-     *
-     * @return quantity in grams
-     */
-    public double getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
@@ -32,9 +28,13 @@ public class Protein extends Product {
 
     @Override
     public void printInformation() {
-        System.out.println("Product type: " + ProductType.PROTEIN);
+        System.out.println("\nProduct type: " + ProductType.PROTEIN);
         super.printInformation();
-        System.out.println("Quantity(in grams): " + quantity);
+        if (quantity < 1000) {
+            System.out.println("Quantity: 0." + quantity + "g");
+        } else {
+            System.out.println("Quantity: " + quantity + "g");
+        }
         System.out.println("Flavour: " + flavour);
         System.out.println("Description: " + description);
     }

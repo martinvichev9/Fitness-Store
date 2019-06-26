@@ -9,23 +9,13 @@ public abstract class Clothes extends Product {
 
     protected ClothesSize size;
     protected Colour colour;
-    protected double quantity;
     protected String description;
 
-    public Clothes(Brand brand, double price, ClothesSize size, Colour colour, double quantity) {
-        super(brand, price);
-        this.quantity = quantity;
+    public Clothes(Brand brand, double price, int count, ClothesSize size, Colour colour) {
+        super(brand, price, count);
         this.colour = colour;
         this.size = size;
         description = Description.CLOTHES;
-    }
-
-    /**
-     *
-     * @return quantity in numbers
-     */
-    public double getQuantity() {
-        return quantity;
     }
 
     public void printInformation() {

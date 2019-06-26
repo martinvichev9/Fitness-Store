@@ -6,26 +6,26 @@ public abstract class Product {
 
     protected Brand brand;
     protected double price;
+    protected int count;
 
-    public Product(Brand brand, double price) {
+    public Product(Brand brand, double price, int count) {
         this.brand = brand;
         this.price = price;
+        this.count = count;
     }
 
     public Brand getBrand() {
         return brand;
     }
 
-    public void printInformation() {
-        System.out.println("Brand: " + brand);
-        System.out.println("Price: " + price);
+    public int getCount() {
+        return count;
     }
 
-    /**
-     * Depends on the chosen product(grams, numbers)
-     * @return the quantity of a product
-     */
-    public abstract double getQuantity();
+    public void printInformation() {
+        System.out.println("Brand: " + brand.getBrand());
+        System.out.println("Price: " + price + " lv");
+    }
 
     public abstract String getProductType();
 

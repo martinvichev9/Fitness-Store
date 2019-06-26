@@ -7,13 +7,13 @@ import bg.sofia.fmi.cleancode.project.utils.ProductType;
 
 public class Leggins extends Clothes{
 
-    public Leggins(Brand brand, double price, ClothesSize size, Colour colour, double quantity) {
-        super(brand, price, size, colour, quantity);
+    public Leggins(Brand brand, double price, int count, ClothesSize size, Colour colour) {
+        super(brand, price, count, size, colour);
     }
 
     @Override
     public void printInformation() {
-        System.out.println("Product type: " + ProductType.LEGGINS);
+        System.out.println("\nProduct type: " + ProductType.LEGGINS);
         super.printInformation();
         System.out.println("Size: " + size);
         System.out.println("Colour: " + colour);
