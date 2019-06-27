@@ -23,7 +23,7 @@ public abstract class Product {
     }
 
     public void printInformation() {
-        System.out.println("Brand: " + brand.getBrand());
+        System.out.println("Brand: " + brand.getBrandName());
         System.out.println("Price: " + price + " lv");
     }
 
