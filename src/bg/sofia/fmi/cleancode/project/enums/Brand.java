@@ -20,7 +20,7 @@ public enum Brand {
         this.brand = brand;
     }
 
-    public String getBrand() {
+    public String getBrandName() {
         return brand;
     }
 
