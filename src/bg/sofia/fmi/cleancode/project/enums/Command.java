@@ -6,7 +6,6 @@ public enum Command {
     SEARCH_BRAND("search brand"),
     BUY_PRODUCT("buy product"),
     VIEW_PRODUCT("view product"),
-    VIEW_ORDER("view order"),
     EXIT("exit");
 
     private String command;
