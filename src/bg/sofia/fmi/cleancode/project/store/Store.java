@@ -21,12 +21,14 @@ public class Store {
      */
     private Map<Product, Integer> products;
 
-    private Set<Brand> brands;
+    private Set<String> brands;
 
     public Store() {
+
         products = new HashMap<>();
         brands = new HashSet<>();
         buildStore();
+
     }
 
     private void buildStore() {
@@ -227,36 +229,14 @@ public class Store {
 
     }
     private void addProduct(Product product) {
+
         products.put(product, product.getCount());
-        brands.add(product.getBrand());
+        brands.add(product.getBrand().getBrandName().toLowerCase());
+
     }
 
-    public int getProductsNumber() {
-        return products.size();
+    public void startShopping() {
+        new Shopping(products, brands).run();
     }
-
-    public boolean containsProductWithBrand(String product, Brand brand) {
-
-        for (Product current : products.keySet()) {
-            if (current.getBrand() == brand && current.getProductType().equals(product)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    public Product getProductByBrand(String product, Brand brand) {
-
-        for (Product current : products.keySet()) {
-            if (current.getProductType().equals(product) && current.getBrand() == brand) {
-                return current;
-            }
-        }
-
-        return null;
-    }
-
-
 
 }
