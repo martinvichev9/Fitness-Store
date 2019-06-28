@@ -5,7 +5,7 @@ import bg.sofia.fmi.cleancode.project.enums.Flavour;
 import bg.sofia.fmi.cleancode.project.utils.Description;
 import bg.sofia.fmi.cleancode.project.utils.ProductType;
 
-public class AminoAcids extends Product{
+public class AminoAcids extends Product {
 
     protected Flavour flavour;
     protected int quantity;

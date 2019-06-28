@@ -6,7 +6,7 @@ public class Constants {
 
     public static final String MENU_MESSAGE = "Here is what we offer:\n";
 
-    public static final String YOUR_CHOICE  = "Your choice: ";
+    public static final String YOUR_CHOICE = "Your choice: ";
 
     public static final String INVALID_USER_CHOICE = "\nNo such choice\n";
 

@@ -5,7 +5,7 @@ import bg.sofia.fmi.cleancode.project.enums.ClothesSize;
 import bg.sofia.fmi.cleancode.project.enums.Colour;
 import bg.sofia.fmi.cleancode.project.utils.ProductType;
 
-public class Leggins extends Clothes{
+public class Leggins extends Clothes {
 
     public Leggins(Brand brand, double price, int count, ClothesSize size, Colour colour) {
         super(brand, price, count, size, colour);

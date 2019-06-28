@@ -38,6 +38,7 @@ public class Store {
         addBCAA();
         addClothes();
     }
+
     private void addProteins() {
 
         Protein whey1 = new Protein(Brand.BATTERY, StoreConstants.PROTEIN_PRICE_ONE,
@@ -58,6 +59,7 @@ public class Store {
         addProduct(whey5);
 
     }
+
     private void addProteinBars() {
 
         ProteinBar bar1 = new ProteinBar(Brand.MYPROTEIN, StoreConstants.PROTEIN_BAR_PRICE_ONE,
@@ -78,6 +80,7 @@ public class Store {
         addProduct(bar5);
 
     }
+
     private void addAminoAcids() {
 
         AminoAcids amino1 = new AminoAcids(Brand.XTEND, StoreConstants.AMINO_PRICE_ONE,
@@ -95,6 +98,7 @@ public class Store {
         addProduct(amino4);
 
     }
+
     private void addBCAA() {
 
         BCAA bcaa1 = new BCAA(Brand.XTEND, StoreConstants.BCAA_PRICE_ONE, StoreConstants.BCAA_COUNT,
@@ -112,6 +116,7 @@ public class Store {
         addProduct(bcaa4);
 
     }
+
     private void addClothes() {
 
         addTShirts();
@@ -120,6 +125,7 @@ public class Store {
         addSweatshirts();
 
     }
+
     private void addTShirts() {
 
         TShirt tShirt1 = new TShirt(Brand.LONSDALE, StoreConstants.LONSDALE_TSHIRT_PRICE,
@@ -159,6 +165,7 @@ public class Store {
         addProduct(tShirt11);
 
     }
+
     private void addLeggins() {
 
         Leggins l1 = new Leggins(Brand.TAPOUT, StoreConstants.LEGGINS_PRICE,
@@ -173,6 +180,7 @@ public class Store {
         addProduct(l3);
 
     }
+
     private void addShorts() {
 
         Shorts sh1 = new Shorts(Brand.TAPOUT, StoreConstants.SHORTS_PRICE,
@@ -199,6 +207,7 @@ public class Store {
         addProduct(sh7);
 
     }
+
     private void addSweatshirts() {
 
         Sweatshirt sw1 = new Sweatshirt(Brand.MYPROTEIN, StoreConstants.SWEATSHIRT_PRICE_ONE,
@@ -228,6 +237,7 @@ public class Store {
         addProduct(sw8);
 
     }
+
     private void addProduct(Product product) {
 
         products.put(product, product.getCount());

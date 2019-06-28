@@ -11,7 +11,7 @@ public class Protein extends Product {
     private int quantity;
     private String description;
 
-    public Protein(Brand brand, double price,  int count, Flavour flavour, int quantity) {
+    public Protein(Brand brand, double price, int count, Flavour flavour, int quantity) {
         super(brand, price, count);
         this.flavour = flavour;
         this.quantity = quantity;
