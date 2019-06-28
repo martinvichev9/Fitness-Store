@@ -31,7 +31,7 @@ public class Shopping {
             createMenuMessage();
             System.out.print(Constants.YOUR_CHOICE);
 
-            String userInput = validUserChoiceInput(input);
+            String userInput = getValidUserChoiceInput(input);
 
             if (userInput.equals(Command.EXIT.getCommand())) {
 
@@ -39,16 +39,14 @@ public class Shopping {
                 input.close();
                 return;
 
-            } else if (userInput.equals(Command.VIEW_PRODUCT.getCommand())) {
-                viewProduct(input);
             } else if (userInput.equals(Command.SEARCH_PRODUCT.getCommand())) {
                 searchProduct(input);
             } else if (userInput.equals(Command.SEARCH_BRAND.getCommand())) {
                 searchBrand(input);
-            } else if (userInput.equals(Command.BUY_PRODUCT.getCommand())) {
-                //TODO
             } else {
-                System.out.println(Constants.WRONG_COMMAND_MESSAGE);
+                //When user chose 'buy product' command
+
+
             }
         }
     }
@@ -58,15 +56,14 @@ public class Shopping {
         System.out.println(String.format("%15s", Command.BUY_PRODUCT.getCommand()));
         System.out.println(String.format("%16s", Command.SEARCH_BRAND.getCommand()));
         System.out.println(String.format("%18s", Command.SEARCH_PRODUCT.getCommand()));
-        System.out.println(String.format("%16s", Command.VIEW_PRODUCT.getCommand()));
         System.out.println(String.format("%8s", Command.EXIT.getCommand()));
 
     }
 
-    private String validUserChoiceInput(Scanner input) {
+    private String getValidUserChoiceInput(Scanner input) {
         String userInput = input.nextLine();
         while (!Validator.isValidUserChoice(userInput)) {
-            System.out.println(Constants.INVALID_USER_CHOICE);
+            System.out.println(Constants.WRONG_COMMAND_MESSAGE);
             createMenuMessage();
             System.out.print(Constants.YOUR_CHOICE);
             userInput = input.nextLine();
@@ -76,49 +73,65 @@ public class Shopping {
 
     }
 
-    private void viewProduct(Scanner input) {
+    private String getValidYesOrNoAnswer(Scanner input) {
+        String userInput = input.nextLine();
+
+        while (!Validator.isYesOrNoUserInput(userInput)) {
+            System.out.print(Constants.YES_NO_USER_INPUT);
+            userInput = input.nextLine();
+        }
+
+        return userInput;
+
+    }
+
+    private void searchProduct(Scanner input) {
+
         while (true) {
-            System.out.println(Constants.VIEW_PRODUCT_MESSAGE);
-            System.out.print("Brand: ");
+            System.out.print(Constants.TYPE_OF_PRODUCT_SEARCH);
 
-            String userInput = input.nextLine();
+            String productType = getValidProductType(input);
 
-            if (!brands.contains(userInput.toLowerCase())) {
-                System.out.println(Constants.NO_SUCH_BRAND_MESSAGE);
-                continue;
+            System.out.print(Constants.SEARCH_BRAND_MESSAGE);
+            String brand = getValidBrand(input);
 
-            } else {
-                String chosenBrand = userInput;
-                System.out.print("Product type: ");
-                userInput = input.nextLine();
-
-                List<Product> products = getProductsByBrand(userInput, chosenBrand);
-                if (products.isEmpty()) {
-                    System.out.println(Constants.NO_SUCH_PRODUCT_OF_BRAND);
-                    continue;
-                } else {
-                    for (Product current : products) {
-                        System.out.println();
-                        current.printInformation();
-                        System.out.println();
-                    }
-                }
+            for (Product current : getProductsByBrand(productType, brand)) {
+                System.out.println();
+                current.printInformation();
+                System.out.println();
             }
 
             System.out.print(Constants.CONTINUE_MESSAGE);
-            userInput = validYesOrNoAnswer(input);
+            String userInput = getValidYesOrNoAnswer(input);
 
-            if (userInput.equals("no")) {
+            if (userInput.equals(Constants.NO_ANSWER)) {
                 return;
             }
         }
     }
 
-    private String validYesOrNoAnswer(Scanner input) {
+    private String getValidProductType(Scanner input) {
+
         String userInput = input.nextLine();
 
-        while (!Validator.isYesOrNoUserInput(userInput)) {
-            System.out.print(Constants.YES_NO_USER_INPUT);
+        while (!Validator.isCorrectProductType(userInput.toLowerCase())) {
+            System.out.println(Constants.NO_SUCH_PRODUCT_TYPE_MESSAGE);
+            System.out.print(Constants.TYPE_OF_PRODUCT_SEARCH);
+
+            userInput = input.nextLine();
+        }
+
+        return userInput;
+    }
+
+    private String getValidBrand(Scanner input) {
+
+        String userInput = input.nextLine();
+
+        while (!Validator.containsBrand(brands, userInput.toLowerCase())) {
+            System.out.println(Constants.NO_SUCH_BRAND_MESSAGE);
+
+            System.out.print(Constants.SEARCH_BRAND_MESSAGE);
             userInput = input.nextLine();
         }
 
@@ -138,10 +151,6 @@ public class Shopping {
 
         return productsByBrand;
 
-    }
-
-    private void searchProduct(Scanner input) {
-        //TODO
     }
 
     private void searchBrand(Scanner input) {
@@ -164,9 +173,9 @@ public class Shopping {
 
             System.out.println();
             System.out.print(Constants.CONTINUE_MESSAGE);
-            userInput = validYesOrNoAnswer(input);
+            userInput = getValidYesOrNoAnswer(input);
 
-            if (userInput.equals("no")) {
+            if (userInput.equals(Constants.NO_ANSWER)) {
                 return;
             }
         }
