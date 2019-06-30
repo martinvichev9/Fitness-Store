@@ -18,10 +18,6 @@ public class ProteinBar extends Product {
         description = Description.PROTEIN_BAR;
     }
 
-    public int getQuantity() {
-        return quantity;
-    }
-
     public String getProductType() {
         return ProductType.PROTEIN_BAR;
     }

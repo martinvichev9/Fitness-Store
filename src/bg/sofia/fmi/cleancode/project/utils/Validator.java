@@ -1,19 +1,20 @@
 package bg.sofia.fmi.cleancode.project.utils;
 
 import bg.sofia.fmi.cleancode.project.enums.Command;
+import bg.sofia.fmi.cleancode.project.enums.Town;
 
 import java.util.Set;
 
 public class Validator {
 
-    public static final boolean isValidUserChoice(String userChoice) {
+    public static final boolean isValidMenuCommand(String menuCommand) {
 
-        userChoice = userChoice.toLowerCase();
+        menuCommand = menuCommand.toLowerCase();
 
-        return userChoice.equals(Command.EXIT.getCommand()) ||
-                userChoice.equals(Command.SEARCH_BRAND.getCommand()) ||
-                userChoice.equals(Command.BUY_PRODUCT.getCommand()) ||
-                userChoice.equals(Command.SEARCH_PRODUCT.getCommand());
+        return menuCommand.equals(Command.EXIT.getCommand()) ||
+                menuCommand.equals(Command.SEARCH_BRAND.getCommand()) ||
+                menuCommand.equals(Command.BUY_PRODUCT.getCommand()) ||
+                menuCommand.equals(Command.SEARCH_PRODUCT.getCommand());
 
     }
 
@@ -35,6 +36,21 @@ public class Validator {
                 productType.equals(ProductType.SHORTS.toLowerCase()) ||
                 productType.equals(ProductType.SWEATSHIRT.toLowerCase()) ||
                 productType.equals(ProductType.T_SHIRT.toLowerCase());
+
+    }
+
+    /**
+     * We consider towns as reachable if they belong to Enum class 'Town'
+     */
+    public static final boolean isReachableTown(String town) {
+
+        for (Town current : Town.values()) {
+            if (current.toString().toLowerCase().equals(town)) {
+                return true;
+            }
+        }
+
+        return false;
 
     }
 

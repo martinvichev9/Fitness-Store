@@ -8,6 +8,6 @@ public enum ClothesSize {
     L,
     XL,
     XXL,
-    XXXL;
+    XXXL
 
 }

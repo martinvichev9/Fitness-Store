@@ -8,6 +8,6 @@ public enum Flavour {
     STRAWBERRY,
     COCONUT,
     ORANGE,
-    NONE;
+    NONE
 
 }

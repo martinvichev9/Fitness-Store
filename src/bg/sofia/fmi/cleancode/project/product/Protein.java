@@ -18,10 +18,6 @@ public class Protein extends Product {
         description = Description.PROTEIN;
     }
 
-    public int getQuantity() {
-        return quantity;
-    }
-
     public String getProductType() {
         return ProductType.PROTEIN;
     }

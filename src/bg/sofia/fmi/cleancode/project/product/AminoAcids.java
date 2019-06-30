@@ -18,10 +18,6 @@ public class AminoAcids extends Product {
         this.description = Description.AMINO_ACIDS_AND_BCAA;
     }
 
-    public int getQuantity() {
-        return quantity;
-    }
-
     public String getProductType() {
         return ProductType.AMINO_ACIDS;
     }
@@ -37,6 +33,7 @@ public class AminoAcids extends Product {
         }
         System.out.println("Flavour: " + flavour);
         System.out.println("Description: " + description);
+
     }
 
 }

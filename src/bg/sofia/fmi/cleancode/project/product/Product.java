@@ -25,6 +25,7 @@ public abstract class Product {
     public void printInformation() {
         System.out.println("Brand: " + brand.getBrandName());
         System.out.println("Price: " + price + " lv");
+
     }
 
     public abstract String getProductType();

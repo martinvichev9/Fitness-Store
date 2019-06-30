@@ -12,7 +12,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-
 public class Store {
 
     /**
@@ -37,6 +36,7 @@ public class Store {
         addAminoAcids();
         addBCAA();
         addClothes();
+
     }
 
     private void addProteins() {

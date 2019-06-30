@@ -27,6 +27,7 @@ public class BCAA extends AminoAcids {
         }
         System.out.println("Flavour: " + flavour);
         System.out.println("Description: " + description);
+
     }
 
 }

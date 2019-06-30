@@ -18,6 +18,7 @@ public class Shorts extends Clothes {
         System.out.println("Size: " + size);
         System.out.println("Colour: " + colour);
         System.out.println("Description: " + description);
+
     }
 
     public String getProductType() {
