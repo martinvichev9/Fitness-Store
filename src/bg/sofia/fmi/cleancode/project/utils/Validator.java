@@ -45,7 +45,7 @@ public class Validator {
     public static final boolean isReachableTown(String town) {
 
         for (Town current : Town.values()) {
-            if (current.toString().toLowerCase().equals(town)) {
+            if (current.toString().toLowerCase().equals(town.toLowerCase())) {
                 return true;
             }
         }
