@@ -1,5 +1,9 @@
 package bg.sofia.fmi.cleancode.project.utils;
 
+/**
+ * That class is used to remove all 'magical' numbers
+ * from 'Store' class as prices, counts, quantities...
+ */
 public class StoreConstants {
 
     public static final int PROTEINS_COUNT = 50;

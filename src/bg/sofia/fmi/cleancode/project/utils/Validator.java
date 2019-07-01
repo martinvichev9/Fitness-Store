@@ -5,6 +5,10 @@ import bg.sofia.fmi.cleancode.project.enums.Town;
 
 import java.util.Set;
 
+/**
+ * Class 'Validator' is used for validating user inputs as commands,
+ * searching, answers, etc.
+ */
 public class Validator {
 
     public static final boolean isValidMenuCommand(String menuCommand) {

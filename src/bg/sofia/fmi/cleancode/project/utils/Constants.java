@@ -1,5 +1,8 @@
 package bg.sofia.fmi.cleancode.project.utils;
 
+/**
+ * All constants which are used in 'Shopping' class
+ */
 public class Constants {
 
     public static final String PRODUCT_TYPE = "product";

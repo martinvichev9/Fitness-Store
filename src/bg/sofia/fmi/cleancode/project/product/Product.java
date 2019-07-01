@@ -22,12 +22,16 @@ public abstract class Product {
         return count;
     }
 
+    /**
+     * That method will be implemented in all derived classes.
+     * @return type of product
+     */
+    public abstract String getProductType();
+
     public void printInformation() {
         System.out.println("Brand: " + brand.getBrandName());
         System.out.println("Price: " + price + " lv");
 
     }
-
-    public abstract String getProductType();
 
 }

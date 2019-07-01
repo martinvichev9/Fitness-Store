@@ -1,5 +1,8 @@
 package bg.sofia.fmi.cleancode.project.utils;
 
+/**
+ * Description of every product
+ */
 public class Description {
 
     public static final String PROTEIN = "Increase of muscle mass, faster recovery.";

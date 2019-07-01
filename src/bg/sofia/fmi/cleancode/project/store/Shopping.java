@@ -8,6 +8,12 @@ import bg.sofia.fmi.cleancode.project.utils.Validator;
 
 import java.util.*;
 
+
+/**
+ * Represents shopping from a fitness store. Every user input is checked
+ * before being processed. User can seach for brand or product and can buy
+ * product.
+ */
 public class Shopping {
 
     private static final int FIRST_ELEMENT = 0;
@@ -17,6 +23,7 @@ public class Shopping {
 
     private Set<String> brands;
 
+    //User input
     private Scanner input;
 
     public Shopping(Map<Product, Integer> storeProducts, Set<String> brands) {
@@ -26,6 +33,9 @@ public class Shopping {
 
     }
 
+    /**
+     * Shopping get started.
+     */
     public void run() {
         System.out.println();
         System.out.println(String.format("%60s", Constants.WELCOME_TO_STORE));
@@ -67,7 +77,7 @@ public class Shopping {
      * @param inputType what type is the input
      * @return verified input
      */
-    public String getValidAnswer(String inputType ) {
+    private String getValidAnswer(String inputType ) {
 
         while (true) {
 
@@ -221,6 +231,7 @@ public class Shopping {
             customerID.printInformation();
             orderProduct.printInformation();
 
+            //Updates product's count
             Integer remainProducts = availableProducts.get(orderProduct);
             availableProducts.remove(orderProduct);
             availableProducts.put(orderProduct, --remainProducts);

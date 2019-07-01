@@ -12,6 +12,12 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+
+/**
+ * The class represents fitness store with different type
+ * of products. All products are added automatically,
+ * when new object of type 'Store' is created.
+ */
 public class Store {
 
     /**
@@ -245,6 +251,10 @@ public class Store {
 
     }
 
+    /**
+     * Provides shopping from class, where all shopping
+     * procedure is implemented in a 'Shopping' class.
+     */
     public void startShopping() {
         new Shopping(products, brands).run();
     }

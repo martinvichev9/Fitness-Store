@@ -11,6 +11,10 @@ public class TShirt extends Clothes {
         super(brand, price, count, size, colour);
     }
 
+    public String getProductType() {
+        return ProductType.T_SHIRT;
+    }
+
     @Override
     public void printInformation() {
         System.out.println("\nProduct type: " + ProductType.T_SHIRT);
@@ -19,10 +23,6 @@ public class TShirt extends Clothes {
         System.out.println("Colour: " + colour);
         System.out.println("Description: " + description);
 
-    }
-
-    public String getProductType() {
-        return ProductType.T_SHIRT;
     }
 
 }

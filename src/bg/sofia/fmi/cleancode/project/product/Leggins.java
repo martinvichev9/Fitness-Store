@@ -11,6 +11,10 @@ public class Leggins extends Clothes {
         super(brand, price, count, size, colour);
     }
 
+    public String getProductType() {
+        return ProductType.LEGGINS;
+    }
+
     @Override
     public void printInformation() {
         System.out.println("\nProduct type: " + ProductType.LEGGINS);
@@ -19,10 +23,6 @@ public class Leggins extends Clothes {
         System.out.println("Colour: " + colour);
         System.out.println("Description: " + description);
 
-    }
-
-    public String getProductType() {
-        return ProductType.LEGGINS;
     }
 
 }

@@ -11,6 +11,10 @@ public class Sweatshirt extends Clothes {
         super(brand, price, count, size, colour);
     }
 
+    public String getProductType() {
+        return ProductType.SWEATSHIRT;
+    }
+
     @Override
     public void printInformation() {
         System.out.println("\nProduct type: " + ProductType.SWEATSHIRT);
@@ -19,10 +23,6 @@ public class Sweatshirt extends Clothes {
         System.out.println("Colour: " + colour);
         System.out.println("Description: " + description);
 
-    }
-
-    public String getProductType() {
-        return ProductType.SWEATSHIRT;
     }
 
 }

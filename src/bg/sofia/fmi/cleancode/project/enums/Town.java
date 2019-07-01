@@ -8,6 +8,6 @@ public enum Town {
     BURGAS,
     BLAGOEVGRAD,
     STARA_ZAGORA,
-    RUSE;
+    RUSE
 
 }
