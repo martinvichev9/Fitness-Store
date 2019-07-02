@@ -4,14 +4,13 @@ import bg.sofia.fmi.cleancode.project.enums.Command;
 import bg.sofia.fmi.cleancode.project.product.Product;
 import bg.sofia.fmi.cleancode.project.utils.Constants;
 import bg.sofia.fmi.cleancode.project.utils.PersonID;
-import bg.sofia.fmi.cleancode.project.utils.Validator;
 
 import java.util.*;
 
 
 /**
  * Represents shopping from a fitness store. Every user input is checked
- * before being processed. User can seach for brand or product and can buy
+ * before being processed. User can search for brand or product and can buy
  * product.
  */
 public class Shopping {
@@ -26,11 +25,13 @@ public class Shopping {
     //User input
     private Scanner input;
 
+    private MenuInterface menuUI;
+
     public Shopping(Map<Product, Integer> storeProducts, Set<String> brands) {
         availableProducts = storeProducts;
         this.brands = brands;
         input = new Scanner(System.in);
-
+        menuUI = new MenuInterface();
     }
 
     /**
@@ -42,13 +43,12 @@ public class Shopping {
 
         while (true) {
 
-            createMenuMessage();
+            printMenuMessage();
             System.out.print(Constants.YOUR_CHOICE);
 
-            String userInput = getValidAnswer(Constants.MENU_COMMAND);
+            String userInput = menuUI.parseUserCommand(input);
 
             if (userInput.equals(Command.EXIT.getCommand())) {
-
                 System.out.println(Constants.GOODBYE_MESSAGE);
                 input.close();
                 return;
@@ -57,76 +57,17 @@ public class Shopping {
                 searchProduct();
             } else if (userInput.equals(Command.SEARCH_BRAND.getCommand())) {
                 searchBrand();
-            } else {
-                //When user chose 'buy product' command
+            } else if (userInput.equals(Command.BUY_PRODUCT.getCommand())) {
                 makeOrder();
-            }
-        }
-
-    }
-
-
-    /**
-     * Verifies user's input. There are five cases of inputs:
-     *  - when user inputs some command from menu, the command should be verified;
-     *  - when user searches for some brand, the brand should be verified;
-     *  - when user searches for some type of product, that types should be verified;
-     *  - when user inputs 'yes'/'no';
-     *  - when user inputs town, that town should be verified
-     *
-     * @param inputType what type is the input
-     * @return verified input
-     */
-    private String getValidAnswer(String inputType ) {
-
-        while (true) {
-
-            String userInput = input.nextLine();
-
-            if (inputType.equals(Constants.MENU_COMMAND)) {
-                if (!Validator.isValidMenuCommand(userInput.toLowerCase())) {
-                    System.out.println(Constants.WRONG_COMMAND_MESSAGE);
-                    createMenuMessage();
-                    System.out.print(Constants.YOUR_CHOICE);
-                    continue;
-                }
-
-            } else if (inputType.equals(Constants.BRAND)) {
-                if (!Validator.containsBrand(brands, userInput.toLowerCase())) {
-                    System.out.println(Constants.NO_SUCH_BRAND_MESSAGE);
-                    System.out.print(Constants.SEARCH_BRAND_MESSAGE);
-                    continue;
-                }
-
-            } else if (inputType.equals(Constants.PRODUCT_TYPE)) {
-                if (!Validator.isCorrectProductType(userInput.toLowerCase())) {
-                    System.out.println(Constants.NO_SUCH_PRODUCT_TYPE_MESSAGE);
-                    System.out.print(Constants.TYPE_OF_PRODUCT_SEARCH);
-                    continue;
-                }
-
-            } else if (inputType.equals(Constants.YES_NO_ANSWER)) {
-                if (!Validator.isYesOrNoUserInput(userInput)) {
-                    System.out.print(Constants.YES_NO_USER_INPUT);
-                    continue;
-                }
-
             } else {
-                //when user inputs town while ordering
-                if (!Validator.isReachableTown(userInput.toLowerCase())) {
-                    System.out.println(Constants.CAN_NOT_DELIVER_THE_ORDER);
-                    System.out.print(Constants.INPUT_TOWN);
-                    continue;
-                }
-
+                //When is inputted invalid command
+                System.out.println(Constants.WRONG_COMMAND_MESSAGE);
             }
-
-            return userInput;
-
         }
+
     }
 
-    private void createMenuMessage() {
+    private void printMenuMessage() {
         System.out.println("\nMenu>");
         System.out.println(String.format("%15s", Command.BUY_PRODUCT.getCommand()));
         System.out.println(String.format("%16s", Command.SEARCH_BRAND.getCommand()));
@@ -139,39 +80,35 @@ public class Shopping {
 
         while (true) {
             System.out.print(Constants.TYPE_OF_PRODUCT_SEARCH);
-            String productType = getValidAnswer(Constants.PRODUCT_TYPE);
+            String productType = menuUI.getProductType(input);
+
+            if (productType.equals(Constants.NO_SUCH_PRODUCT_TYPE_MESSAGE)) {
+                System.out.println(Constants.NO_SUCH_PRODUCT_TYPE_MESSAGE);
+                continue;
+            }
 
             System.out.print(Constants.SEARCH_BRAND_MESSAGE);
-            String brand = getValidAnswer(Constants.BRAND);
+            String brand = menuUI.getBrand(input, brands);
 
-            printProducts(productType, brand);
+            if (brand.equals(Constants.NO_SUCH_BRAND_MESSAGE)) {
+                System.out.println(Constants.NO_SUCH_BRAND_MESSAGE);
+                continue;
+            }
+
+            printProductsInformation(productType, brand);
 
             System.out.print(Constants.CONTINUE_MESSAGE);
-            String userInput = getValidAnswer(Constants.YES_NO_ANSWER);
+            String yesNoAnswer = menuUI.getValidYesNoMessage(input);
 
-            if (userInput.equals(Constants.NO_ANSWER)) {
+            if (yesNoAnswer.equals(Constants.NO_ANSWER)) {
                 return;
             }
         }
 
     }
 
-    private List<Product> getProductsByBrand(String product, String brand) {
-        List<Product> productsByBrand = new LinkedList<>();
-
-        for (Product current : availableProducts.keySet()) {
-            if (current.getProductType().toLowerCase().equals(product.toLowerCase()) &&
-                    current.getBrand().getBrandName().toLowerCase().equals(brand.toLowerCase())) {
-                productsByBrand.add(current);
-            }
-        }
-
-        return productsByBrand;
-
-    }
-
-    private void printProducts(String productType, String productBrand) {
-        for (Product current : getProductsByBrand(productType, productBrand)) {
+    private void printProductsInformation(String productType, String productBrand) {
+        for (Product current : menuUI.getProductsByBrand(productType, productBrand, availableProducts)) {
             System.out.println();
             current.printInformation();
             System.out.println();
@@ -183,42 +120,34 @@ public class Shopping {
 
         while (true) {
             System.out.print(Constants.SEARCH_BRAND_MESSAGE);
-            String userInput = input.nextLine();
+            String brand = menuUI.getBrand(input, brands);
 
-            if (!brands.contains(userInput.toLowerCase())) {
+            if (brand.equals(Constants.NO_SUCH_BRAND_MESSAGE)) {
                 System.out.println(Constants.NO_SUCH_BRAND_MESSAGE);
+                continue;
 
             } else {
                 System.out.println(Constants.FOUND_BRAND_MESSAGE);
                 System.out.print("Product(s): ");
+                printProductTypesFromBrand(brand);
 
-                for (String productType : getAllProductTypesFromBrand(userInput)) {
-                    System.out.print(productType + " ");
-                }
             }
 
             System.out.println();
             System.out.print(Constants.CONTINUE_MESSAGE);
-            userInput = getValidAnswer(Constants.YES_NO_ANSWER);
+            String yesNoMessage = menuUI.getValidYesNoMessage(input);
 
-            if (userInput.equals(Constants.NO_ANSWER)) {
+            if (yesNoMessage.equals(Constants.NO_ANSWER)) {
                 return;
             }
         }
 
     }
 
-    private Set<String> getAllProductTypesFromBrand(String brand) {
-        Set<String> brandProductTypes = new HashSet<>();
-
-        for (Product product : availableProducts.keySet()) {
-            if (product.getBrand().getBrandName().toLowerCase().equals(brand.toLowerCase())) {
-                brandProductTypes.add(product.getProductType());
-            }
+    private void printProductTypesFromBrand(String brand) {
+        for (String productType : menuUI.getAllProductTypesFromBrand(brand, availableProducts)) {
+            System.out.print(productType + " ");
         }
-
-        return brandProductTypes;
-
     }
 
     private void makeOrder() {
@@ -238,7 +167,7 @@ public class Shopping {
 
             System.out.print(Constants.PRESS_YES);
             String userInput = input.nextLine();
-            while(!userInput.toLowerCase().equals(Constants.YES_ANSWER)) {
+            while (!userInput.toLowerCase().equals(Constants.YES_ANSWER)) {
                 System.out.print(Constants.PRESS_YES);
                 userInput = input.nextLine();
             }
@@ -258,8 +187,17 @@ public class Shopping {
         System.out.print(Constants.INPUT_SURNAME);
         String surname = input.nextLine();
 
-        System.out.print(Constants.INPUT_TOWN);
-        String town = getValidAnswer(Constants.TOWN);
+        String town;
+        while (true) {
+            System.out.print(Constants.INPUT_TOWN);
+            town = menuUI.getValidTown(input);
+
+            if (!town.equals(Constants.CAN_NOT_DELIVER_THE_ORDER)) {
+                break;
+            }
+
+            System.out.println(Constants.CAN_NOT_DELIVER_THE_ORDER);
+        }
 
         return new PersonID(firstName, surname, town);
 
@@ -268,13 +206,12 @@ public class Shopping {
     private Product orderProduct() {
 
         System.out.print(Constants.TYPE_OF_PRODUCT_SEARCH);
-        String productType = getValidAnswer(Constants.PRODUCT_TYPE);
+        String productType = menuUI.getProductType(input);
 
         System.out.print(Constants.SEARCH_BRAND_MESSAGE);
-        String productBrand = getValidAnswer(Constants.BRAND);
+        String productBrand = menuUI.getBrand(input, brands);
 
-        return getProductsByBrand(productType, productBrand).get(FIRST_ELEMENT);
-
+        return menuUI.getProductsByBrand(productType, productBrand, availableProducts).get(FIRST_ELEMENT);
     }
 
 }

@@ -5,16 +5,6 @@ package bg.sofia.fmi.cleancode.project.utils;
  */
 public class Constants {
 
-    public static final String PRODUCT_TYPE = "product";
-
-    public static final String BRAND = "brand";
-
-    public static final String MENU_COMMAND = "menu command";
-
-    public static final String YES_NO_ANSWER = "yes/no answer";
-
-    public static final String TOWN = "town";
-
     public static final String NO_ANSWER = "no";
 
     public static final String YES_ANSWER = "yes";

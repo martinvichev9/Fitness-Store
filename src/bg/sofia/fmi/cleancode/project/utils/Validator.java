@@ -27,7 +27,7 @@ public class Validator {
     }
 
     public static final boolean containsBrand(Set<String> brands, String brand) {
-        return brands.contains(brand);
+        return brands.contains(brand.toLowerCase());
     }
 
     public static final boolean isCorrectProductType(String productType) {

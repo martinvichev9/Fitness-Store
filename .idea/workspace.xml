@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fb5729-0d1a-414a-b5ec-af3de02eebe4" name="Default Changelist" comment="">
+    <list default="true" id="07fb5729-0d1a-414a-b5ec-af3de02eebe4" name="Default Changelist" comment="Add JavaDoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/AminoAcids.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/AminoAcids.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/BCAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/BCAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Leggins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Leggins.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Protein.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Protein.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/ProteinBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/ProteinBar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Shorts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Shorts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Sweatshirt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/Sweatshirt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/TShirt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/product/TShirt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Town.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Leggins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Leggins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Shorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Shorts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Sweatshirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Sweatshirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/TShirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/TShirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/utils/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FitnessStore/bg/sofia/fmi/cleancode/project/utils/Description.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/MenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/MenuInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,48 +28,58 @@
     <SUITE FILE_PATH="coverage/FitnessStore$ValidatorTest_testIfIsValidMenuCommand.ic" NAME="ValidatorTest.testIfIsValidMenuCommand Coverage Results" MODIFIED="1561932230696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>bg.sofia.fmi.cleancode.project.utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/FitnessStore$ValidatorTest.ic" NAME="ValidatorTest Coverage Results" MODIFIED="1561932455138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/FitnessStore$MenuInterfaceTest_testParseCommandWhenInputIsCorrect.ic" NAME="MenuInterfaceTest.testParseCommandWhenInputIsCorrect Coverage Results" MODIFIED="1562069022375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.fmi.cleancode.project.store.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FitnessStore$MenuInterfaceTest.ic" NAME="MenuInterfaceTest Coverage Results" MODIFIED="1562089344231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.fmi.cleancode.project.store.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FitnessStore$ValidatorTest.ic" NAME="ValidatorTest Coverage Results" MODIFIED="1562089365509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>bg.sofia.fmi.cleancode.project.utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FitnessStore$MenuInterfaceTest_testGetValidTownWhenInputIsIncorrect.ic" NAME="MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect Coverage Results" MODIFIED="1562089301832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.fmi.cleancode.project.store.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="311" />
+    <option name="myElementSize" value="353" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1140268957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="253" />
+          <entry key="java" value="265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="253" />
+          <entry key="JAVA" value="265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="java" value="26441" />
-          <entry key="txt" value="638" />
+          <entry key="java" value="33966" />
+          <entry key="txt" value="722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26441" />
-          <entry key="PLAIN_TEXT" value="677" />
+          <entry key="JAVA" value="33966" />
+          <entry key="PLAIN_TEXT" value="761" />
         </counts>
       </usages-collector>
     </session>
@@ -90,19 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+            <state relative-caret-position="1250">
+              <caret line="205" column="35" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Shopping#0;class#Shopping#0" />
                 <element signature="method#run#0;class#Shopping#0" />
-                <element signature="method#getValidAnswer#0;class#Shopping#0" />
-                <element signature="method#createMenuMessage#0;class#Shopping#0" />
+                <element signature="method#printMenuMessage#0;class#Shopping#0" />
                 <element signature="method#searchProduct#0;class#Shopping#0" />
-                <element signature="method#getProductsByBrand#0;class#Shopping#0" />
-                <element signature="method#printProducts#0;class#Shopping#0" />
+                <element signature="method#printProductsInformation#0;class#Shopping#0" />
                 <element signature="method#searchBrand#0;class#Shopping#0" />
-                <element signature="method#getAllProductTypesFromBrand#0;class#Shopping#0" />
+                <element signature="method#printProductTypesFromBrand#0;class#Shopping#0" />
                 <element signature="method#makeOrder#0;class#Shopping#0" />
                 <element signature="method#getUserID#0;class#Shopping#0" />
                 <element signature="method#orderProduct#0;class#Shopping#0" />
@@ -112,32 +109,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/PersonID.java">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/MenuInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="-666">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
-                <element signature="method#PersonID#0;class#PersonID#0" />
-                <element signature="method#printInformation#0;class#PersonID#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#parseUserCommand#0;class#MenuInterface#0" />
+                <element signature="method#getProductType#0;class#MenuInterface#0" />
+                <element signature="method#getBrand#0;class#MenuInterface#0" />
+                <element signature="method#getValidYesNoMessage#0;class#MenuInterface#0" />
+                <element signature="method#getAllProductTypesFromBrand#0;class#MenuInterface#0" />
+                <element signature="method#getProductsByBrand#0;class#MenuInterface#0" />
+                <element signature="method#getValidTown#0;class#MenuInterface#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/ProductType.java">
+        <entry file="file://$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/store/MenuInterfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1575">
+              <caret line="204" column="92" selection-start-line="204" selection-start-column="92" selection-end-line="204" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testParseCommandWhenInputIsCorrect#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testParseCommandWhenInputIsIncorrect#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetProductWhenProductTypeIsNotCorrect#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetProductWhenProductTypeIsCorrect#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetBrandWithNoExistingBrands#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetBrandWithExistingBrands#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetValidYesNoMessageBothCases#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetValidYesNoMessageWithTwoIncorrectInputs#0;class#MenuInterfaceTest#0" />
+                <element signature="method#testGetValidYesNoMessageWithTwoIncorrectInputs#1;class#MenuInterfaceTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java">
+        <entry file="file://$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testIfIsValidMenuCommand#0;class#ValidatorTest#0" />
+                <element signature="method#testIfIsCorrectProductType#0;class#ValidatorTest#0" />
+                <element signature="method#testIfIsReachableTown#0;class#ValidatorTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,68 +167,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#isValidMenuCommand#0;class#Validator#0" />
                 <element signature="method#isYesOrNoUserInput#0;class#Validator#0" />
+                <element signature="method#containsBrand#0;class#Validator#0" />
                 <element signature="method#isCorrectProductType#0;class#Validator#0" />
                 <element signature="method#isReachableTown#0;class#Validator#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Flavour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Town.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/AminoAcids.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#AminoAcids#0;class#AminoAcids#0" />
-                <element signature="method#printInformation#0;class#AminoAcids#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-              <folding>
-                <element signature="method#Product#0;class#Product#0" />
-                <element signature="method#printInformation#0;class#Product#0" />
               </folding>
             </state>
           </provider>
@@ -217,8 +186,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -243,14 +212,12 @@
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Order.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Flavour.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/PersonID.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/ClothesSize.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Protein.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/ProteinBar.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/AminoAcids.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/BCAA.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java" />
-        <option value="$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Town.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Colour.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Leggins.java" />
@@ -259,11 +226,15 @@
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/TShirt.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Product.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Store.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Description.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/MenuInterface.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/store/MenuInterfaceTest.java" />
       </list>
     </option>
   </component>
@@ -280,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,22 +259,10 @@
               <item name="FitnessStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="FitnessStore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FitnessStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FitnessStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -310,7 +270,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562018464242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562089408221" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -320,6 +280,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bg.sofia.fmi.cleancode.project.store" />
       <recent name="bg.sofia.fmi.cleancode.project.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -339,15 +300,64 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ValidatorTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.Main" />
+    <configuration name="MenuInterfaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FitnessStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.*" />
+          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.fmi.cleancode.project.store" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.store.MenuInterfaceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FitnessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.fmi.cleancode.project.store" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.store.MenuInterfaceTest" />
+      <option name="METHOD_NAME" value="testGetValidTownWhenInputIsIncorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FitnessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.fmi.cleancode.project.store" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.store.MenuInterfaceTest" />
+      <option name="METHOD_NAME" value="testGetValidYesNoMessageWithThreeIncorrectInputs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuInterfaceTest.testGetValidYesNoMessageWithTwoIncorrectInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FitnessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.fmi.cleancode.project.store" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.store.MenuInterfaceTest" />
+      <option name="METHOD_NAME" value="testGetValidYesNoMessageWithTwoIncorrectInputs" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -366,32 +376,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatorTest.testIfIsValidMenuCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FitnessStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bg.sofia.fmi.cleancode.project.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bg.sofia.fmi.cleancode.project.utils" />
-      <option name="MAIN_CLASS_NAME" value="bg.sofia.fmi.cleancode.project.utils.ValidatorTest" />
-      <option name="METHOD_NAME" value="testIfIsValidMenuCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ValidatorTest.testIfIsValidMenuCommand" />
+      <item itemvalue="JUnit.MenuInterfaceTest.testGetValidYesNoMessageWithTwoIncorrectInputs" />
+      <item itemvalue="JUnit.MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" />
+      <item itemvalue="JUnit.MenuInterfaceTest" />
+      <item itemvalue="JUnit.MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect" />
       <item itemvalue="JUnit.ValidatorTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ValidatorTest" />
-        <item itemvalue="JUnit.ValidatorTest.testIfIsValidMenuCommand" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MenuInterfaceTest" />
+        <item itemvalue="JUnit.MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect" />
+        <item itemvalue="JUnit.MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" />
+        <item itemvalue="JUnit.MenuInterfaceTest.testGetValidYesNoMessageWithTwoIncorrectInputs" />
       </list>
     </recent_temporary>
   </component>
@@ -546,36 +544,75 @@
       <option name="project" value="LOCAL" />
       <updated>1561932619914</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add JavaDoc">
+      <created>1562018506348</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562018506348</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add MenuInterface class">
+      <created>1562085555891</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562085555891</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix typos in MenuInterface class">
+      <created>1562086357948</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562086357948</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValidatorTest_testIfIsValidMenuCommand - 2019.07.01 at 01h 00m 30s.xml">
-      <configuration name="ValidatorTest.testIfIsValidMenuCommand" configurationId="JUnit" />
+    <history-entry file="MenuInterfaceTest_testGetValidYesNoMessageWithThreeIncorrectInputs - 2019.07.02 at 20h 35m 29s.xml">
+      <configuration name="MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest_testIfIsValidMenuCommand - 2019.07.01 at 01h 01m 16s.xml">
-      <configuration name="ValidatorTest.testIfIsValidMenuCommand" configurationId="JUnit" />
+    <history-entry file="MenuInterfaceTest_testGetValidYesNoMessageWithThreeIncorrectInputs - 2019.07.02 at 20h 35m 36s.xml">
+      <configuration name="MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest_testIfIsValidMenuCommand - 2019.07.01 at 01h 04m 07s.xml">
-      <configuration name="ValidatorTest.testIfIsValidMenuCommand" configurationId="JUnit" />
+    <history-entry file="MenuInterfaceTest_testGetValidYesNoMessageWithThreeIncorrectInputs - 2019.07.02 at 20h 35m 42s.xml">
+      <configuration name="MenuInterfaceTest.testGetValidYesNoMessageWithThreeIncorrectInputs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest - 2019.07.01 at 01h 04m 25s.xml">
+    <history-entry file="MenuInterfaceTest - 2019.07.02 at 20h 36m 53s.xml">
+      <configuration name="MenuInterfaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuInterfaceTest - 2019.07.02 at 20h 37m 13s.xml">
+      <configuration name="MenuInterfaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuInterfaceTest_testGetValidTownWhenInputIsIncorrect - 2019.07.02 at 20h 41m 15s.xml">
+      <configuration name="MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuInterfaceTest_testGetValidTownWhenInputIsIncorrect - 2019.07.02 at 20h 41m 56s.xml">
+      <configuration name="MenuInterfaceTest.testGetValidTownWhenInputIsIncorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuInterfaceTest - 2019.07.02 at 20h 42m 20s.xml">
+      <configuration name="MenuInterfaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuInterfaceTest - 2019.07.02 at 20h 42m 39s.xml">
+      <configuration name="MenuInterfaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidatorTest - 2019.07.02 at 20h 43m 00s.xml">
       <configuration name="ValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest - 2019.07.01 at 01h 04m 43s.xml">
-      <configuration name="ValidatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidatorTest - 2019.07.01 at 01h 06m 58s.xml">
-      <configuration name="ValidatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidatorTest - 2019.07.01 at 01h 07m 51s.xml">
-      <configuration name="ValidatorTest" configurationId="JUnit" />
-    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,11 +620,11 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32939914" />
@@ -602,7 +639,7 @@
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,10 +648,10 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32939914" />
@@ -626,6 +663,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -678,26 +716,16 @@
     <MESSAGE value="Fix some typos" />
     <MESSAGE value="Change some small error in Validator class" />
     <MESSAGE value="Add tests for Validator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests for Validator class" />
+    <MESSAGE value="Add JavaDoc" />
+    <MESSAGE value="Add MenuInterface class" />
+    <MESSAGE value="Fix typos in MenuInterface class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix typos in MenuInterface class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store.java" />
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Order.java" />
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testIfIsValidMenuCommand#0;class#ValidatorTest#0" />
-            <element signature="method#testIfIsCorrectProductType#0;class#ValidatorTest#0" />
-            <element signature="method#testIfIsReachableTown#0;class#ValidatorTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Leggins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -738,11 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Protein#0;class#Protein#0" />
-            <element signature="method#printInformation#0;class#Protein#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,11 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ProteinBar#0;class#ProteinBar#0" />
-            <element signature="method#printInformation#0;class#ProteinBar#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,46 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="255" column="54" selection-start-line="255" selection-start-column="54" selection-end-line="255" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Store#0;class#Store#0" />
-            <element signature="method#buildStore#0;class#Store#0" />
-            <element signature="method#addProteins#0;class#Store#0" />
-            <element signature="method#addProteinBars#0;class#Store#0" />
-            <element signature="method#addAminoAcids#0;class#Store#0" />
-            <element signature="method#addBCAA#0;class#Store#0" />
-            <element signature="method#addClothes#0;class#Store#0" />
-            <element signature="method#addTShirts#0;class#Store#0" />
-            <element signature="method#addLeggins#0;class#Store#0" />
-            <element signature="method#addShorts#0;class#Store#0" />
-            <element signature="method#addSweatshirts#0;class#Store#0" />
-            <element signature="method#addProduct#0;class#Store#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -857,10 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/ProductType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -874,7 +856,7 @@
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Town.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -890,6 +872,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/enums/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -901,25 +897,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java">
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Shopping#0;class#Shopping#0" />
-            <element signature="method#run#0;class#Shopping#0" />
-            <element signature="method#getValidAnswer#0;class#Shopping#0" />
-            <element signature="method#createMenuMessage#0;class#Shopping#0" />
-            <element signature="method#searchProduct#0;class#Shopping#0" />
-            <element signature="method#getProductsByBrand#0;class#Shopping#0" />
-            <element signature="method#printProducts#0;class#Shopping#0" />
-            <element signature="method#searchBrand#0;class#Shopping#0" />
-            <element signature="method#getAllProductTypesFromBrand#0;class#Shopping#0" />
-            <element signature="method#makeOrder#0;class#Shopping#0" />
-            <element signature="method#getUserID#0;class#Shopping#0" />
-            <element signature="method#orderProduct#0;class#Shopping#0" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -934,31 +922,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/ProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="275">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isValidMenuCommand#0;class#Validator#0" />
             <element signature="method#isYesOrNoUserInput#0;class#Validator#0" />
+            <element signature="method#containsBrand#0;class#Validator#0" />
             <element signature="method#isCorrectProductType#0;class#Validator#0" />
             <element signature="method#isReachableTown#0;class#Validator#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/utils/StoreConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="550">
+          <caret line="258" column="12" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Store#0;class#Store#0" />
+            <element signature="method#buildStore#0;class#Store#0" />
+            <element signature="method#addProteins#0;class#Store#0" />
+            <element signature="method#addProteinBars#0;class#Store#0" />
+            <element signature="method#addAminoAcids#0;class#Store#0" />
+            <element signature="method#addBCAA#0;class#Store#0" />
+            <element signature="method#addClothes#0;class#Store#0" />
+            <element signature="method#addTShirts#0;class#Store#0" />
+            <element signature="method#addLeggins#0;class#Store#0" />
+            <element signature="method#addShorts#0;class#Store#0" />
+            <element signature="method#addSweatshirts#0;class#Store#0" />
+            <element signature="method#addProduct#0;class#Store#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/Shopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="205" column="35" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Shopping#0;class#Shopping#0" />
+            <element signature="method#run#0;class#Shopping#0" />
+            <element signature="method#printMenuMessage#0;class#Shopping#0" />
+            <element signature="method#searchProduct#0;class#Shopping#0" />
+            <element signature="method#printProductsInformation#0;class#Shopping#0" />
+            <element signature="method#searchBrand#0;class#Shopping#0" />
+            <element signature="method#printProductTypesFromBrand#0;class#Shopping#0" />
+            <element signature="method#makeOrder#0;class#Shopping#0" />
+            <element signature="method#getUserID#0;class#Shopping#0" />
+            <element signature="method#orderProduct#0;class#Shopping#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="1650" selection-start-line="1650" selection-end-line="1650" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/fmi/cleancode/project/store/MenuInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#parseUserCommand#0;class#MenuInterface#0" />
+            <element signature="method#getProductType#0;class#MenuInterface#0" />
+            <element signature="method#getBrand#0;class#MenuInterface#0" />
+            <element signature="method#getValidYesNoMessage#0;class#MenuInterface#0" />
+            <element signature="method#getAllProductTypesFromBrand#0;class#MenuInterface#0" />
+            <element signature="method#getProductsByBrand#0;class#MenuInterface#0" />
+            <element signature="method#getValidTown#0;class#MenuInterface#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/store/MenuInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="204" column="92" selection-start-line="204" selection-start-column="92" selection-end-line="204" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testParseCommandWhenInputIsCorrect#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testParseCommandWhenInputIsIncorrect#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetProductWhenProductTypeIsNotCorrect#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetProductWhenProductTypeIsCorrect#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetBrandWithNoExistingBrands#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetBrandWithExistingBrands#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetValidYesNoMessageBothCases#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetValidYesNoMessageWithTwoIncorrectInputs#0;class#MenuInterfaceTest#0" />
+            <element signature="method#testGetValidYesNoMessageWithTwoIncorrectInputs#1;class#MenuInterfaceTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/fmi/cleancode/project/utils/ValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testIfIsValidMenuCommand#0;class#ValidatorTest#0" />
+            <element signature="method#testIfIsCorrectProductType#0;class#ValidatorTest#0" />
+            <element signature="method#testIfIsReachableTown#0;class#ValidatorTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

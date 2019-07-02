@@ -39,7 +39,7 @@ public class MenuInterface {
      * @return constant when there is no such type of product
      * or user input (if there is)
      */
-    public String getProduct(Scanner input) {
+    public String getProductType(Scanner input) {
         userInput = input.nextLine();
 
         if (!Validator.isCorrectProductType(userInput.toLowerCase())) {
