@@ -20,7 +20,7 @@ public class MenuInterface {
     /**
      * Checks command, which user inputs.
      *
-     * @param input user input
+     * @param input User input
      * @return "Wrong command" if command is wrong or user input
      */
     public String parseUserCommand(Scanner input) {
@@ -35,7 +35,7 @@ public class MenuInterface {
     /**
      * Checks product, which user searches for
      *
-     * @param input user input
+     * @param input User input
      * @return constant when there is no such type of product
      * or user input (if there is)
      */
@@ -52,8 +52,8 @@ public class MenuInterface {
     /**
      * Checks brand, which user searches for
      *
-     * @param input  user input
-     * @param brands all brands in store
+     * @param input  User input
+     * @param brands All brands in store
      * @return constant when there is no such brand
      * or user input
      */
@@ -70,7 +70,7 @@ public class MenuInterface {
     /**
      * Checks if user inputs 'yes'/'no', no matter of lower/upper letters.
      *
-     * @param input
+     * @param input User input
      * @return constant where input is not correct or user input
      * when is correct
      */
@@ -88,8 +88,8 @@ public class MenuInterface {
     /**
      * Returns all product types of some brand without repeating any types
      *
-     * @param brand             current brand
-     * @param availableProducts all products in store
+     * @param brand             Current brand
+     * @param availableProducts All products in store
      * @return all product types of some brand
      */
     public Set<String> getAllProductTypesFromBrand(String brand, Map<Product, Integer> availableProducts) {
@@ -108,9 +108,9 @@ public class MenuInterface {
     /**
      * Returns all products of some brand
      *
-     * @param product           type product
-     * @param brand             brand of product
-     * @param availableProducts all product in store
+     * @param product           Type product
+     * @param brand             Brand of product
+     * @param availableProducts All product in store
      * @return all products(not product types as in the upper method) of some brand
      */
     public List<Product> getProductsByBrand(String product, String brand, Map<Product, Integer> availableProducts) {
@@ -130,7 +130,7 @@ public class MenuInterface {
     /**
      * Checks if town from user input is reachable(i.e., is part of Enum class Town)
      *
-     * @param input user input
+     * @param input User input
      * @return constant if town is not reachable or user input
      */
     public String getValidTown(Scanner input) {
